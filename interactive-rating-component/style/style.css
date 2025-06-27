@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Overpass:ital,wght@0,100..900;1,100..900&display=swap');
+:root{
+    --cor1: hsl(25, 97%, 53%);
+    --cor2: hsl(0, 100%, 100%);
+    --cor3: hsl(217, 12%, 63%);
+    --cor4: hsl(213, 19%, 18%);
+    --cor5: hsl(216, 12%, 8%);  
+    --fonte1: "Overpass", "sans-serif";
+    
+}
+body{
+    background-color: var(--cor5);
+    height: 98vh;
+    display: flex;
+    justify-content: center;
+    flex-flow: column;
+}
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: var(--fonte1);
+}
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+#ratingStart{
+    padding: 20px;
+    border-radius: 20px;
+    margin: auto;
+    display: flex;
+    flex-flow: row wrap;
+    width: 335px;
+    /* background-color: var(--cor4); */
+    background: radial-gradient(circle,rgb(34, 41, 51) 0%, rgb(22, 30, 40) 100%);
+    color: var(--cor3);
+}
+#ratingStart span{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    padding: 5px;
+    height: 25px;
+    width: 25px;
+    background-color: #242F36;
+}
+#ratingStart > div{
+    width: 100%;
+    margin: 15px 0px 20px 0px;
+}
+#ratingStart h1{
+    color: var(--cor2);
+}
+#ratingStart p{
+    text-align: justify;
+    margin: 20px 0px 20px 0px;
+}
+#ratingStart ul{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+}
+#ratingStart li{
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+    width: 50px;
+    color: var(--cor2);
+    background-color: #242F36;
+    border-radius: 50%;
+    cursor: pointer;
+}
+#ratingStart button{
+    margin: 20px auto 20px auto;
+    background-color: var(--cor1);
+    color: var(--cor5);
+    width: 90%;
+    border-radius: 20px;
+    border: none;
+    padding: 10px;
+    font-size: 1.1em;
+    letter-spacing: 2px;
+    font-weight: 700;
+    cursor: pointer;
+}
+#ratingStart button:hover {
+    background-color: var(--cor2);
+    color: var(--cor5);
+}
+#ratingStart li:hover{
+    background-color: var(--cor1);
+    color: var(--cor5);
+}
+#Report{
+    padding: 20px;
+    border-radius: 20px;
+    margin: auto;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    flex-flow: row wrap;
+    width: 335px;
+    /* background-color: var(--cor4); */
+    background: radial-gradient(circle,rgb(34, 41, 51) 0%, rgb(22, 30, 40) 100%);
+    color: var(--cor3);
+}
+#Report img{
+    margin: 15px 0px 20px 0px;
+}
+#gradeContainer{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+#grade{
+    display: flex;
+    width: 165px;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    border-radius: 15px;
+    color: var(--cor1);
+    background-color: var(--cor4);
+}
+#Report h2{
+    color: var(--cor2);
+    margin-bottom: 20px;
+}
+#diss{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+

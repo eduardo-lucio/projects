@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+  <link rel="stylesheet" href="style/style.css">
+  <link rel="stylesheet" media="(min-width: 1440px)" href="style/desktop.css">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <title>Interactive rating component</title>
+</head>
+<body>
+  <!-- Rating state start -->
+  <section id="ratingStart">
+  <div><span><img src="images/icon-star.svg" alt=""></span></div>
+  <h1>How did we do?</h1>
+  <p>
+    Please let us know how we did with your support request. All feedback is appreciated
+    to help us improve our offering!
+  </p>
+  <ul>
+    <li id="Rating1">1</li>
+    <li id="Rating2">2</li>
+    <li id="Rating3">3</li>
+    <li id="Rating4">4</li>
+    <li id="Rating5">5</li>
+  </ul>
+  <button id="enviar">SUBMIT</button>
+  </section>
+  <!-- Rating state end -->
+
+
+  <!-- Thank you state start -->
+  <section id="Report"> 
+    <img src="images/illustration-thank-you.svg" alt="">
+  <div id="gradeContainer">
+    <p id="grade">You selected number out of 5</p>
+  </div>
+  <h2>Thank you!</h2>
+  <p id="diss">
+    We appreciate you taking the time to give a rating. If you ever need more support,
+    don’t hesitate to get in touch!
+  </p>
+  </section>
+  <!-- Thank you state end -->
+
+  
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Eduardo</a>.
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
